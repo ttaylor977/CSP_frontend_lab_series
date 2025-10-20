@@ -4,13 +4,25 @@
    =========================================================== */
 
 // TODO 1: Print your full name with console.log()
-
+   console.log("TyTaylor")
 
 // TODO 2: Declare variable favoriteFood, assign "Steak", then reassign "Pizza"
+   let favoriteFood;
 
+   favoriteFood = "Steak"
+   console.log(favoriteFood);
+
+   favoriteFood = "Pizza"
+   console.log(favoriteFood)
 
 // TODO 3: Create variable mystery, assign a string, then a number, print type each time
+   let mystery;
 
+   mystery = "football"
+   console.log("Value: " + mystery + " Type: " + typeof mystery)
+
+   mystery = 100;
+   console.log("Value: " + mystery + " Type: " + typeof mystery)
 
 // TODO 4: Declare const schoolName, try to reassign
 
