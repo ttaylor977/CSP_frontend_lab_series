@@ -54,3 +54,14 @@
    4. Where else could this programming concept be useful?
          For organizing.
    =========================================================== */
+
+// MiniFRQ_Pratice 
+
+   let width = 5;
+   let height = 5;
+
+   let area = width * height;
+   let perimeter = 2 *( width + height);
+
+   console.log(`area of rectangle ${area}`);
+   console.log(`perimeter of a rectange ${perimeter}`);
