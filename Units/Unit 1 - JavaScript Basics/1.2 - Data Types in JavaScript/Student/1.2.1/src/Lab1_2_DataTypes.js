@@ -22,6 +22,7 @@ console.log(9 * 6);
 console.log(10 / 2);
 console.log(2 ** 3);
 console.log(7 % 2)
+
 // TODO 3: Assignment operators with score variable
 let score = 10;
 
@@ -31,6 +32,7 @@ score *= 2;
 score /= 4; 
 
 console.log(score);
+
 // TODO 4: Expressions with operator precedence
 let result1 = 2 + 3 * 4;      
 let result2 = (2 + 3) * 4;   
@@ -39,6 +41,7 @@ let result3 = 10 - 4 / 2;
 console.log(result1);
 console.log(result2);
 console.log(result3);
+
 // TODO 5: Strings (single, double, backticks)
 let singleQuote = 'Hello';
 let doubleQuote = "World";
@@ -47,6 +50,7 @@ let backticks = `Hello, ${doubleQuote}!`;
 console.log(singleQuote);
 console.log(doubleQuote);
 console.log(backticks);
+
 // TODO 6: String properties and methods
 // - greeting.length
 // - charAt(0), charAt(5), [3]
