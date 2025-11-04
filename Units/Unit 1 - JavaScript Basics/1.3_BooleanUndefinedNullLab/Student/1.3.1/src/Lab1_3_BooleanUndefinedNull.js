@@ -5,14 +5,20 @@
 // TODO 1: Booleans
 // - Create isStudent = true, hasLicense = false
 // - Print results of true || false, true && false, !true
+let isStudent = true;
+let hasLicense = false;
 
+console.log(true || false )
+true && false 
+!true
 // TODO 2: Short-circuit evaluation
 // - Print result of false && (5 > 2)
 // - Print result of true || (2 > 5)
+false && (5 > 2)
+true || (2 > 5)
 
 // TODO 3: Undefined
 // - Declare variable grade and print it
-
 // TODO 4: Null
 // - Create city = null, print it
 // - Reassign city = "Miami" and print again
