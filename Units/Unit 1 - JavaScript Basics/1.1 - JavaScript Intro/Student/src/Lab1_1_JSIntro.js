@@ -44,6 +44,7 @@
 /* ===========================================================
    🎟 EXIT TICKET
    1. What new concept or skill did you learn in this lab?
+<<<<<<< HEAD
          A new concept I learned in the lab is that Javascript is stricter than html and css, for ex. capital letters.
 
    2. How did you apply logic or conditionals in your code?
@@ -53,6 +54,10 @@
 
    4. Where else could this programming concept be useful?
          For organizing.
+=======
+   2. What challenges did you encounter, and how did you solve them?
+   3. Where else could this programming concept be useful?
+>>>>>>> upstream/main
    =========================================================== */
 
 // MiniFRQ_Pratice 
