@@ -16,31 +16,38 @@ console.log(whatIsThis);
 
 // TODO 2: Print basic math ops: + - * /
 // TODO 2b: Use exponentiation (2 ** 3) and modulo (7 % 2)
-console.log(2 + 2);
-console.log(6 - 7);
-console.log(9 * 6);
-console.log(10 / 2);
-console.log(2 ** 3);
-console.log(7 % 2)
+console.log("2 + 2",2 + 2);
+console.log("6 - 7",6 - 7);
+console.log("9 * 6",9 * 6);
+
+console.log("10 / 2",10 / 2);
+console.log("2 ** 3",2 ** 3);
+console.log("7 % 2",7 % 2)
 
 // TODO 3: Assignment operators with score variable
 let score = 10;
 
 score += 5; 
-score -= 3;
-score *= 2;  
-score /= 4; 
+console.log(score);
 
+score -= 3;
+console.log(score);
+
+score *= 2; 
+console.log(score); 
+
+score /= 4; 
 console.log(score);
 
 // TODO 4: Expressions with operator precedence
-let result1 = 2 + 3 * 4;      
-let result2 = (2 + 3) * 4;   
-let result3 = 10 - 4 / 2;    
+let result1 = 2 + 3 * 4;    
+console.log("result1");
 
-console.log(result1);
-console.log(result2);
-console.log(result3);
+let result2 = (2 + 3) * 4; 
+console.log("result2");  
+
+let result3 = 10 - 4 / 2;    
+console.log("result3");
 
 // TODO 5: Strings (single, double, backticks)
 let singleQuote = 'Hello';
@@ -59,11 +66,11 @@ console.log(backticks);
 // - substring, substr, slice examples
 let greeting = "This is sad but cool!";
 
-console.log(greeting.length);
+console.log("greeting".length);
 
-console.log(greeting.charAt(0));
-console.log(greeting.charAt(5));
-console.log(greeting[3]);
+console.log("greeting".charAt(0));
+console.log("greeting".charAt(5));
+console.log("3greeting"[3]);
 
 console.log(greeting.indexOf("sad"));
 

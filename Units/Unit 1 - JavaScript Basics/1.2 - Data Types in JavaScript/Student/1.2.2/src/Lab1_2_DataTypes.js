@@ -3,7 +3,7 @@
    Primitive types, typeof, and basic conversions.
    =========================================================== */
 
-<<<<<<< HEAD
+HEAD
 // TODO 1: Declare one variable for each primitive type discussed in the PDF.
 // string, number, boolean, null, undefined
 let s = 5;
@@ -36,7 +36,7 @@ console.log(isNaN(noNumber))
 // TODO 6: Template literals: print a line that mixes text + a variable value.
 let name = "Ty";
 console.log(`Hello, ${name}! You entered the number ${n}.`)
-=======
+
 // 1️⃣ Primitive Types
 // Declare one variable for each primitive type: string, number, boolean, null, undefined.
 // Print each variable and its type using typeof.
@@ -66,7 +66,7 @@ console.log(`Hello, ${name}! You entered the number ${n}.`)
 // Create variables name and age.
 // Use a template literal to print: Hello, my name is ${name} and I am ${age} years old.
 
->>>>>>> upstream/main
+ upstream/main
 
 /* ===========================================================
    🎟 EXIT TICKET
