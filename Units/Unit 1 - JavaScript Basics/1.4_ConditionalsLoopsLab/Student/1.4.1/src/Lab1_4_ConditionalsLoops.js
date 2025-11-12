@@ -109,16 +109,49 @@ switch(model){
 
 
 }
-// TODO 4: While loop (1 to 10)
 
+// TODO 4: While loop (1 to 10)
+let count = 1;
+while (count <= 10) {
+    console.log("VALUE: ", count)
+    count++;
+}
+   
+
+
+let count2 = 10;
+while (count2 >= 1) {
+    console.log("VALUE: ", count2)
+    count2--;
+}
 
 // TODO 5: Do..while loop (1 to 5)
 
+let i = 1;
+do{
+    console.log("VALUE: ", i);
+    i++;
+}while(i <= 5)
 
 // TODO 6: For loop (1 to 20, print "ten" at 10 and "twenty" at 20)
-
+for(let i = 1; i <= 20; i++){
+    if(i == 10){
+        console.log(10)
+    } else if (i == 20) {
+        console.log("TWENTY")
+    } else {
+        console.log(i)
+    }
+}
 
 // TODO 7: Even/Odd loop (1 to 20)
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 == 0) {
+        console.log(i + " EVEN")
+    } else {
+        console.log(i + " ODD")
+    }
+}
 
 
 // 🚀 Stretch Goals
